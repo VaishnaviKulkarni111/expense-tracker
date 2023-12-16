@@ -1,5 +1,4 @@
 import ExpenseItem from './components/ExpenseItem';
-import './App.css';
 
 
 function App() {
