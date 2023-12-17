@@ -1,7 +1,7 @@
-import ExpenseItem from './components/ExpenseItem';
+import ExpenseItem from './components/Expenses/ExpenseItem';
 
 
-function App() {
+const  App =() => {
   const expenses = [
     {id: 'e1',title: 'Rent',amount: 990,date: new Date(2020, 7, 14), loc:'mumbai'},
     { id: 'e2', title: 'New TV', amount: 799.49, date: new Date(2021, 2, 12),loc:'pune' },
