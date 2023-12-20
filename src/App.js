@@ -1,19 +1,24 @@
 import React from "react";
 import ExpenseForm from "./components/NewExpense/ExpenseForm";
- // import ExpenseItem from './components/Expenses/ExpenseItem';
+  // import ExpenseItem from './components/Expenses/ExpenseItem';
 
+ const addExpenseHandler = (expense) => {
+  console.log('in app js');
+  console.log(expense)
+}
 const form = () => {
   return(
     <div>
       <h2> Expense Form</h2>
-      <ExpenseForm/>
+      <ExpenseForm onAddExpense= {addExpenseHandler}/>
     </div>
   )
 }
+ 
 
 
 
-export default form;
+ export default form;
 
 // const  App =() => {
 //   const expenses = [
