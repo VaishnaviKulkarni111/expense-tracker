@@ -22,7 +22,7 @@ const  ExpenseItem = (props) => {
         <h2>{props.title} </h2>
       </div>
       <div className='expense-item__price'> { props.amount}</div>
-      <button >'$'100</button>
+      {/* <button >'$'100</button> */}
       <div className='exp-item-location'> {props.loc}</div>
       <button onClick={clickHandler}> Change Title</button>
     </div>
